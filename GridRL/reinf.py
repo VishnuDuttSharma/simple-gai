@@ -34,7 +34,7 @@ def initGridPlayer():
     state[1, 1] = np.array([0, 1 ,0, 0])
     state[3, 3] = np.array([1 ,0 ,0 ,0])
     
-    agent = findLoc(state, np.array([0, 0, 1, 1]))
+    agent = findLoc(state, np.array([0, 0, 0, 1]))
     wall  = findLoc(state, np.array([0, 0, 1, 0]))
     pit   = findLoc(state, np.array([0 ,1 ,0, 0]))
     goal  = findLoc(state, np.array([1 ,0 ,0, 0]))
